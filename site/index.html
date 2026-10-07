@@ -3,107 +3,119 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>$LAZARUS — paired with $XMR</title>
-<meta name="description" content="Lazarus Group meme coin. $LAZARUS paired with Monero. The quiet coin. No mint yet.">
+<title>$LAZARUS × $XMR</title>
+<meta name="description" content="$LAZARUS is the Lazarus Group meme coin, paired with Monero. Chollima on the Wing. No mint yet.">
+<link rel="canonical" href="https://lazarusxmr.fun/">
 <meta property="og:title" content="$LAZARUS × $XMR">
 <meta property="og:description" content="Chollima on the wing. The quiet coin. No mint yet.">
-<meta property="og:image" content="media/og.jpg">
+<meta property="og:image" content="https://lazarusxmr.fun/media/og.jpg">
+<meta property="og:url" content="https://lazarusxmr.fun/">
 <link rel="icon" href="media/favicon.png">
 <link rel="stylesheet" href="css/site.css">
 </head>
 <body>
+<a class="skip" href="#pair">Skip to the pair</a>
 <header class="top">
   <a class="mark" href="#top"><img src="media/logo-mark.png" alt=""> $LAZARUS</a>
   <nav>
-    <a href="#song">Song</a>
     <a href="#pair">Pair</a>
+    <a href="#film">Film</a>
     <a href="#stickers">Stickers</a>
-    <a href="#reels">Reels</a>
+    <a href="#song">Song</a>
   </nav>
+  <p class="pill"><span>$LAZARUS</span> × <span>$XMR</span></p>
 </header>
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>$LAZARUS × $XMR · THE QUIET COIN · CHOLLIMA ON THE WING · NO MINT YET ·&nbsp;</span>
+    <span>$LAZARUS × $XMR · THE QUIET COIN · CHOLLIMA ON THE WING · NO MINT YET ·&nbsp;</span>
+  </div>
+</div>
 
 <main id="top">
   <section class="hero">
-    <video class="hero-video" src="media/trailer.mp4" poster="media/poster.jpg" autoplay muted loop playsinline controls></video>
-    <div class="hero-copy">
-      <p class="eyebrow">Lazarus Group meme coin · no mint yet</p>
+    <div class="lockup">
+      <img class="coin" src="media/logo-mark.png" alt="Lazarus mark, a mummy in a red circle with a Monero badge">
+      <p class="eyebrow">Chollima on the wing</p>
       <h1>$LAZARUS</h1>
-      <p class="lede">Chollima on the wing. The crew that aimed the world’s machines at the quiet coin.</p>
-      <p class="pairline"><span>$LAZARUS</span> × <span class="xmr">$XMR</span></p>
-      <div class="player" id="song">
-        <audio id="theme" src="media/chollima.mp3" preload="auto" loop></audio>
-        <button id="play" type="button">Play the song</button>
-        <p class="song-note">Chollima on the Wing. The trailer is the loudest minute, 1:36 to 2:36.</p>
+      <p class="times">× <span>$XMR</span></p>
+      <p class="lede">The meme coin for the crew that aimed the world’s machines at the quiet coin.</p>
+      <div class="deck" id="song">
+        <audio id="theme" src="media/chollima.mp3" preload="metadata" loop></audio>
+        <div class="deck-top">
+          <button id="play" type="button">Play the song</button>
+          <p class="track">Chollima on the Wing</p>
+        </div>
+        <label class="seek">
+          <span class="sr">Song position</span>
+          <input id="bar" type="range" min="0" max="1000" value="0" step="1">
+        </label>
+        <p class="time"><span id="now">0:00</span><span id="dur">2:44</span></p>
       </div>
     </div>
-  </section>
-
-  <section id="pair" class="panel">
-    <div>
-      <p class="eyebrow">The pair</p>
-      <h2>The quiet coin.</h2>
-      <p>In 2017 a unit later rolled into the Lazarus name took one South Korean office server and aimed it at Monero. About seventy coins came off that machine. The traffic was tied to an address at Kim Il Sung University. A UN panel wrote it down. Monero was the point. It does not print who got paid.</p>
-      <p>The same name then outgrew the office PCs. Chainalysis put DPRK-linked crypto theft near $2.02 billion for 2025, and about $6.75 billion since 2017. The February 2025 Bybit theft was about $1.5 billion in ether. The FBI called that job TraderTraitor, also tracked as Lazarus. In October 2026 ZachXBT said a Chinese network had moved more than $1 billion of that kind of money.</p>
-      <p>$LAZARUS sits on $XMR because the quiet coin was where the small machines paid home.</p>
-    </div>
-    <figure>
-      <img src="media/banner_pair.jpg" alt="$LAZARUS paired with $XMR">
+    <figure class="screen">
+      <video src="media/trailer.mp4" poster="media/poster.jpg" autoplay muted loop playsinline controls></video>
+      <figcaption>The loudest minute. 1:36 to 2:36.</figcaption>
     </figure>
   </section>
 
-  <section id="stills" class="stills">
-    <p class="eyebrow">Stills</p>
-    <h2>The kit.</h2>
-    <div class="grid">
-      <figure class="wide"><img src="media/still-square.jpg" alt="Parade square"><figcaption>The square</figcaption></figure>
-      <figure><img src="media/still-hood.jpg" alt="Hood against the flag"><figcaption>The hood</figcaption></figure>
-      <figure><img src="media/still-xmr.jpg" alt="Monero mark"><figcaption>The pair</figcaption></figure>
-      <figure class="wide"><img src="media/still-launch.jpg" alt="A launch over the hills"><figcaption>The climb</figcaption></figure>
-      <figure><img src="media/still-city.jpg" alt="Pyongyang across the river"><figcaption>The river</figcaption></figure>
-      <figure><img src="media/still-podium.jpg" alt="At the podium"><figcaption>The hall</figcaption></figure>
-      <figure><img src="media/logo-mark.png" alt="Lazarus mark"><figcaption>The mark</figcaption></figure>
+  <section class="facts" aria-label="The public record">
+    <article>
+      <p class="num">70</p>
+      <h2>XMR</h2>
+      <p>One South Korean office server, 2017. The traffic was tied to a Kim Il Sung University address. A UN panel wrote it down.</p>
+    </article>
+    <article>
+      <p class="num">$2.02B</p>
+      <h2>2025</h2>
+      <p>Chainalysis put DPRK-linked crypto theft near that for the year, and about $6.75 billion since 2017. Bybit alone was about $1.5 billion.</p>
+    </article>
+    <article>
+      <p class="num">$XMR</p>
+      <h2>The pair</h2>
+      <p>Monero does not print who got paid. $LAZARUS sits on it because that was where the small machines paid home.</p>
+    </article>
+  </section>
+
+  <section id="pair" class="record">
+    <div>
+      <p class="eyebrow">The record</p>
+      <h2>They outgrew the office PCs.</h2>
+      <p>A unit later rolled into the Lazarus name took that one server and aimed it at Monero. About seventy coins came off the machine. The same umbrella then left the piggybacked computers behind.</p>
+      <p>The February 2025 Bybit theft was ether, not monero. The FBI called that job TraderTraitor, also tracked as Lazarus. In October 2026 ZachXBT said a Chinese network had moved more than $1 billion of that kind of money.</p>
+      <p class="closer">The pair is the joke and the history. The quiet coin first. The exchange raids after.</p>
     </div>
+    <figure>
+      <img src="media/still-hood.jpg" alt="A hooded figure against the flag and falling code">
+      <figcaption>The hood. The mark is the mummy. The pair is Monero.</figcaption>
+    </figure>
   </section>
 
-  <section class="banners">
-    <p class="eyebrow">Banners</p>
-    <img src="media/banner_wide.jpg" alt="Wide banner: $LAZARUS paired with $XMR">
-    <img src="media/banner_dex.jpg" alt="Dex banner: $LAZARUS paired with $XMR">
+  <section class="break">
+    <img src="media/banner_wide.jpg" alt="Parade banner reading $LAZARUS paired with $XMR">
   </section>
 
-  <section id="stickers">
-    <p class="eyebrow">Telegram stickers · 512</p>
-    <h2>Peel them off.</h2>
-    <div class="stickers">
-      <img src="media/sticker-logo.png" alt="Lazarus logo sticker">
-      <img src="media/sticker-pair.png" alt="$LAZARUS times $XMR sticker">
-      <img src="media/sticker-quiet.png" alt="The quiet coin sticker">
-      <img src="media/sticker-hood.png" alt="Hood sticker">
-      <img src="media/sticker-xmr.png" alt="Monero sticker">
-      <img src="media/sticker-launch.png" alt="Launch sticker">
-      <img src="media/sticker-pixel.png" alt="Pixel sticker">
-      <img src="media/sticker-clap.png" alt="Applause sticker">
+  <section id="film">
+    <div class="section-head">
+      <p class="eyebrow">Film</p>
+      <h2>Six seconds each.</h2>
     </div>
-  </section>
-
-  <section id="reels" class="reels">
-    <p class="eyebrow">Reels · 6 seconds</p>
-    <div class="reel-grid">
+    <div class="reel-row">
+      <figure>
+        <video src="media/square.mp4" poster="media/still-square.jpg" muted loop playsinline controls></video>
+        <figcaption>The square</figcaption>
+      </figure>
       <figure>
         <video src="media/tel.mp4" poster="media/still-launch.jpg" muted loop playsinline controls></video>
         <figcaption>The trucks</figcaption>
-      </figure>
-      <figure>
-        <video src="media/xmr.mp4" poster="media/still-xmr.jpg" muted loop playsinline controls></video>
-        <figcaption>The pair</figcaption>
       </figure>
       <figure>
         <video src="media/launch.mp4" poster="media/still-launch.jpg" muted loop playsinline controls></video>
         <figcaption>The climb</figcaption>
       </figure>
       <figure>
-        <video src="media/square.mp4" poster="media/still-square.jpg" muted loop playsinline controls></video>
-        <figcaption>The square</figcaption>
+        <video src="media/xmr.mp4" poster="media/still-xmr.jpg" muted loop playsinline controls></video>
+        <figcaption>The pair</figcaption>
       </figure>
       <figure>
         <video src="media/hood.mp4" poster="media/still-hood.jpg" muted loop playsinline controls></video>
@@ -115,11 +127,31 @@
       </figure>
     </div>
   </section>
+
+  <section id="stickers">
+    <div class="section-head">
+      <p class="eyebrow">Stickers · 512</p>
+      <h2>Peel them off.</h2>
+    </div>
+    <div class="stickers">
+      <img src="media/sticker-logo.png" alt="Spiced Lazarus coin sticker">
+      <img src="media/sticker-pair.png" alt="Sticker reading $LAZARUS times $XMR">
+      <img src="media/sticker-quiet.png" alt="Sticker reading the quiet coin">
+      <img src="media/sticker-hood.png" alt="Hood sticker">
+      <img src="media/sticker-xmr.png" alt="Monero sticker">
+      <img src="media/sticker-launch.png" alt="Launch sticker">
+      <img src="media/sticker-pixel.png" alt="Pixel Monero sticker">
+      <img src="media/sticker-clap.png" alt="Applause sticker">
+    </div>
+  </section>
 </main>
 
 <footer>
   <img src="media/logo-mark.png" alt="">
-  <p>$LAZARUS is a meme. $XMR is Monero. Nothing here is a mint, a bid, or an affiliation with the Lazarus Group, the DPRK, or the Monero project.</p>
+  <div>
+    <p class="pill"><span>$LAZARUS</span> × <span>$XMR</span></p>
+    <p>$LAZARUS is a meme. $XMR is Monero. Nothing here is a mint, a bid, or an affiliation with the Lazarus Group, the DPRK, or the Monero project.</p>
+  </div>
 </footer>
 <script src="js/site.js"></script>
 </body>

@@ -3,6 +3,14 @@ account_id = "b4d2c0859ed027cdf7f17626d660949e"
 compatibility_date = "2026-10-07"
 workers_dev = true
 
+[[routes]]
+pattern = "lazarusxmr.fun"
+custom_domain = true
+
+[[routes]]
+pattern = "www.lazarusxmr.fun"
+custom_domain = true
+
 [assets]
 directory = "./site"
 not_found_handling = "404-page"
